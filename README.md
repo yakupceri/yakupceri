@@ -1,5 +1,7 @@
 # Merhaba, Ben Yakup Çeri 👋
 
+🇹🇷 Türkçe · [🇬🇧 English](./README.md)
+
 İzmir Ekonomi Üniversitesi Bilgisayar Programcılığı mezunuyum. Java, Spring Boot, Hibernate ve SQL ekosisteminde katmanlı mimariye uygun, dinamik filtreleme mekanizmalarına ve sağlam ilişkisel veri modellerine sahip RESTful backend servisleri geliştiriyorum.
 
 <p align="left">
@@ -56,13 +58,13 @@
   - Altyazı dili tespiti (stopword + alfabe analizi), 6 dilde arayüz, açık/koyu tema, yönetim paneli.
   - Railway üzerinde yayında.
 
-- 💻 **[Computer Sales System - Backend API](https://github.com/yakupceri/computer-sales-system)**
+- 💻 **[Computer Sales System - Backend API](https://github.com/yakupceri/computer-sales-system-spring-boot)**
   - Spring Boot ile bilgisayar satış süreçlerini yöneten RESTful API tabanlı backend servisi.
   - MySQL üzerinde 10 tablodan oluşan ilişkisel veri modeli (`OneToOne`, `OneToMany`, `ManyToOne`).
   - Spring Data JPA Specification ile dinamik veri sorgulama ve DTO optimizasyonu.
   - Controller, Service, Repository ve Domain katmanlarından oluşan modüler mimari.
 
-- 🗄️ **Computer Store - Database Design**
+- 🗄️ **[Computer Store - Database Design](https://github.com/yakupceri/computer-store-sqlserver-db)**
   - Satış süreçlerine yönelik 3. Normal Form (3NF) prensipleriyle tasarlanmış ilişkisel veri tabanı modeli (SQL Server).
   - PRIMARY KEY, FOREIGN KEY, UNIQUE ve CHECK kısıtlamaları ile veri tutarlılığı.
   - Transaction yapıları, ACID prensipleri, TRIGGER, FUNCTION ve VIEW bazlı analitik raporlama.
@@ -81,8 +83,8 @@
 ### 📈 GitHub İstatistikleri
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yakupceri&show_icons=true&theme=tokyonight" height="145" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yakupceri&layout=compact&theme=tokyonight" height="145" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=yakupceri&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&v=2" height="145" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yakupceri&layout=compact&theme=tokyonight&v=2" height="145" alt="Top Langs" />
 </div>
 
 ---
