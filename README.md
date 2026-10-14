@@ -1,86 +1,89 @@
-# Merhaba, Ben Yakup Çeri 👋
+# Hi, I'm Yakup Çeri 👋
 
-🇹🇷 Türkçe · [🇬🇧 English](./README.md)
+[🇹🇷 Türkçe](./README.tr.md) · 🇬🇧 English
 
-İzmir Ekonomi Üniversitesi Bilgisayar Programcılığı mezunuyum. Java, Spring Boot, Hibernate ve SQL ekosisteminde katmanlı mimariye uygun, dinamik filtreleme mekanizmalarına ve sağlam ilişkisel veri modellerine sahip RESTful backend servisleri geliştiriyorum.
+Computer Programming graduate of İzmir University of Economics. I build RESTful backend services in the Java, Spring Boot, Hibernate and SQL ecosystem, with a layered architecture, dynamic filtering and solid relational data models. I also build full products with Python, FastAPI and PostgreSQL.
 
 <p align="left">
+  <a href="./YAKUP_CERI_CV_EN.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/📄_View_my_CV-0A66C2?style=for-the-badge&logoColor=white" alt="Yakup Çeri CV" />
+  </a>
   <a href="./YAKUP_CERI_CV.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/📄_Özgeçmişimi_Görüntüle_(CV)-0A66C2?style=for-the-badge&logoColor=white" alt="Yakup Çeri CV" />
+    <img src="https://img.shields.io/badge/📄_CV_(Türkçe)-555555?style=for-the-badge&logoColor=white" alt="Yakup Çeri CV (Türkçe)" />
   </a>
 </p>
 
 ---
 
-### ⭐ Öne Çıkan Proje: CineVocab
+### ⭐ Featured project: CineVocab
 
 <a href="https://github.com/yakupceri/cinevocab-app"><img src="https://raw.githubusercontent.com/yakupceri/cinevocab-app/main/docs/store/promo-small-440x280.png" align="right" width="260" alt="CineVocab"></a>
 
-**Prime Video, YouTube ve Udemy altyazılarını kelime kelime çeviren Chrome eklentisi + web uygulaması.** Kelimeler hesabına kaydedilir; hızlı quiz'lerle pratik yapar, arkadaşlarınla canlı düelloda yarışırsın.
+**A Chrome extension plus a web app that translates Prime Video, YouTube and Udemy subtitles word by word.** The words are saved to your account, where you can practise them in quick quizzes or race your friends in live duels.
 
-- Eklenti Chrome Web Store'da yayında, site Railway'de çalışıyor.
-- **Python, FastAPI, PostgreSQL, WebSocket** (gerçek zamanlı düello odaları), Chrome Manifest V3.
-- Hesap sistemi, altyazı dili tespiti, 6 dilde arayüz, yönetim paneli.
+- The extension is on the Chrome Web Store and the site runs on Railway.
+- **Python, FastAPI, PostgreSQL, WebSocket** (real-time duel rooms), Chrome Manifest V3.
+- Accounts, subtitle language detection, a 6-language interface and an admin panel.
 
-[🔗 GitHub](https://github.com/yakupceri/cinevocab-app) · [🧩 Chrome Web Store](https://chromewebstore.google.com/detail/glhogfbfbjifiihgffjpjgijkjplebkl) · [🌐 Canlı site](https://cinevocab.up.railway.app)
+[🔗 GitHub](https://github.com/yakupceri/cinevocab-app) · [🧩 Chrome Web Store](https://chromewebstore.google.com/detail/glhogfbfbjifiihgffjpjgijkjplebkl) · [🌐 Live site](https://cinevocab.up.railway.app)
 
 ---
 
-### 🛠️ Yetkinlikler & Teknolojiler
+### 🛠️ Skills & technologies
 
-- **Diller:** Java, Python, JavaScript, SQL (T-SQL, MySQL, PostgreSQL)
+- **Languages:** Java, Python, JavaScript, SQL (T-SQL, MySQL, PostgreSQL)
 - **Backend & ORM:** Spring Boot, Spring Data JPA, Hibernate, Specification API, Lombok
-- **Veritabanı Mimarisi:** SQL Server, MySQL, Normalizasyon (3NF), Transaction Yönetimi (ACID)
-- **Web & Gerçek Zamanlı:** FastAPI, WebSocket, Chrome Extension (Manifest V3), Railway
-- **Araçlar & Test:** Git, GitHub, Postman, RESTful APIs
+- **Database design:** SQL Server, MySQL, normalization (3NF), transaction management (ACID)
+- **Web & real-time:** FastAPI, WebSocket, Chrome Extension (Manifest V3), Railway
+- **Tools & testing:** Git, GitHub, Postman, RESTful APIs
 
 ---
 
-### 💼 İş Deneyimi
+### 💼 Experience
 
-- **Onur Enerji** — *Backend Developer (Stajyer)* `(Temmuz 2025 – Ağustos 2025)`
-  - Spring Boot ve Hibernate (JPA) kullanılarak veri tabanı işlemleri geliştirildi.
-  - Dinamik filtreleme sistemi tasarlanarak kullanıcı kriterlerine göre SQL sorgularının otomatik oluşturulması sağlandı.
-  - Entity, Controller, Repository, Service, DTO ve Specification katmanlarıyla çok katmanlı mimari uygulandı.
+- **Onur Enerji** — *Backend Developer (Intern)* `(Jul 2025 – Aug 2025)`
+  - Developed database operations with Spring Boot and Hibernate (JPA).
+  - Designed a dynamic filtering layer that builds SQL queries automatically from user criteria (JPA Specification).
+  - Applied a multi-layered architecture of Entity, Controller, Repository, Service, DTO and Specification layers.
 
-- **Eldor Corporation** — *IT Personel (Stajyer)* `(Ocak 2025 – Şubat 2025)`
-  - SQL ile veri tabanı sorgulamaları yapılarak veri kontrol süreçlerine destek sağlandı.
-  - Temel ağ yapılandırmaları ve kurumsal donanım arıza tespiti/sorun giderme süreçleri yürütüldü.
-
----
-
-### 📌 Projeler
-
-- 🎬 **[CineVocab - Chrome Eklentisi + Web Uygulaması](https://github.com/yakupceri/cinevocab-app)** (Python / FastAPI)
-  - Prime Video, YouTube ve Udemy altyazılarını kelime kelime çeviren Chrome eklentisi (Manifest V3: content script, service worker) ve kelimeleri pratiğe çeviren web uygulaması. Chrome Web Store'da yayında.
-  - FastAPI + PostgreSQL ile REST API, hesap sistemi (PBKDF2 parola özeti, oturum belirteçleri, hız sınırlama, kurtarma kodu ile parola sıfırlama).
-  - WebSocket ile gerçek zamanlı çok oyunculu düello odaları, puanlama ve liderlik tablosu.
-  - Altyazı dili tespiti (stopword + alfabe analizi), 6 dilde arayüz, açık/koyu tema, yönetim paneli.
-  - Railway üzerinde yayında.
-
-- 💻 **[Computer Sales System - Backend API](https://github.com/yakupceri/computer-sales-system-spring-boot)**
-  - Spring Boot ile bilgisayar satış süreçlerini yöneten RESTful API tabanlı backend servisi.
-  - MySQL üzerinde 10 tablodan oluşan ilişkisel veri modeli (`OneToOne`, `OneToMany`, `ManyToOne`).
-  - Spring Data JPA Specification ile dinamik veri sorgulama ve DTO optimizasyonu.
-  - Controller, Service, Repository ve Domain katmanlarından oluşan modüler mimari.
-
-- 🗄️ **[Computer Store - Database Design](https://github.com/yakupceri/computer-store-sqlserver-db)**
-  - Satış süreçlerine yönelik 3. Normal Form (3NF) prensipleriyle tasarlanmış ilişkisel veri tabanı modeli (SQL Server).
-  - PRIMARY KEY, FOREIGN KEY, UNIQUE ve CHECK kısıtlamaları ile veri tutarlılığı.
-  - Transaction yapıları, ACID prensipleri, TRIGGER, FUNCTION ve VIEW bazlı analitik raporlama.
+- **Eldor Corporation** — *IT Staff (Intern)* `(Jan 2025 – Feb 2025)`
+  - Ran SQL queries and supported data validation processes.
+  - Handled basic network configuration and hardware fault diagnosis and troubleshooting.
 
 ---
 
-### 🎓 Eğitim & Sertifikalar
+### 📌 Projects
 
-- **İzmir Ekonomi Üniversitesi** — Bilgisayar Programcılığı *(Önlisans)* `(2023 - 2025)`
-- **Sertifikalar & Etkinlikler:**
-  - Gameathon 4.0 IEU Meslek Yüksekokulu — Mentörlük (2024)
-  - Siber Güvenliğe Giriş — CISCO (2023)
+- 🎬 **[CineVocab: Chrome extension + web app](https://github.com/yakupceri/cinevocab-app)** (Python / FastAPI)
+  - A Chrome extension (Manifest V3: content script, service worker) that translates Prime Video, YouTube and Udemy subtitles word by word, plus a web app that turns the saved words into practice. Published on the Chrome Web Store.
+  - REST API with FastAPI and PostgreSQL, and an account system (PBKDF2 password hashing, session tokens, rate limiting, password reset with a recovery code).
+  - Real-time multiplayer duel rooms over WebSocket, with scoring and a leaderboard.
+  - Subtitle language detection (stopwords + alphabet analysis), a 6-language interface, light/dark theme and an admin panel.
+  - Deployed on Railway.
+
+- 💻 **[Computer Sales System: Backend API](https://github.com/yakupceri/computer-sales-system-spring-boot)**
+  - A RESTful backend service built with Spring Boot that manages computer sales.
+  - A relational model of 10 tables on MySQL (`OneToOne`, `OneToMany`, `ManyToOne`).
+  - Dynamic querying with Spring Data JPA Specification, and DTOs for data transfer.
+  - A modular architecture of Controller, Service, Repository and Domain layers.
+
+- 🗄️ **[Computer Store: Database Design](https://github.com/yakupceri/computer-store-sqlserver-db)**
+  - A relational database for sales processes on SQL Server, designed to Third Normal Form (3NF).
+  - Data integrity with PRIMARY KEY, FOREIGN KEY, UNIQUE and CHECK constraints.
+  - Transactions (ACID), TRIGGER, FUNCTION and VIEW-based reporting.
 
 ---
 
-### 📈 GitHub İstatistikleri
+### 🎓 Education & certificates
+
+- **İzmir University of Economics** — Computer Programming *(Associate degree)* `(2023 - 2025)`
+- **Certificates & events:**
+  - Gameathon 4.0, IEU Vocational School — Mentor (2024)
+  - Introduction to Cybersecurity — CISCO (2023)
+
+---
+
+### 📈 GitHub stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=yakupceri&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&v=2" height="145" alt="GitHub Stats" />
@@ -89,8 +92,8 @@
 
 ---
 
-### 📫 İletişim
+### 📫 Contact
 
 - **LinkedIn:** [linkedin.com/in/yakupceri](https://www.linkedin.com/in/yakupceri/)
-- **E-posta:** [yakupceri24@gmail.com](mailto:yakupceri24@gmail.com)
-- **Konum:** İzmir, Türkiye
+- **Email:** [yakupceri24@gmail.com](mailto:yakupceri24@gmail.com)
+- **Location:** İzmir, Türkiye
