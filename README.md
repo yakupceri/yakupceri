@@ -2,7 +2,7 @@
 
 [🇹🇷 Türkçe](./README.tr.md) · 🇬🇧 English
 
-🟢 **Open to junior backend roles** · İzmir, İstanbul or remote · Java / Spring Boot · Python / FastAPI
+🟢 **Open to junior backend roles** · On-site, hybrid or remote · Java / Spring Boot · Python / FastAPI
 
 Computer Programming graduate of İzmir University of Economics. I build RESTful backend services in the Java, Spring Boot, Hibernate and SQL ecosystem, with a layered architecture, dynamic filtering and solid relational data models. I also build full products with Python, FastAPI and PostgreSQL.
 

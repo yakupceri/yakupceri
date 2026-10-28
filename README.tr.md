@@ -2,7 +2,7 @@
 
 🇹🇷 Türkçe · [🇬🇧 English](./README.md)
 
-🟢 **Junior backend pozisyonlarına açığım** · İzmir, İstanbul veya uzaktan · Java / Spring Boot · Python / FastAPI
+🟢 **Junior backend pozisyonlarına açığım** · Ofiste, hibrit veya uzaktan · Java / Spring Boot · Python / FastAPI
 
 İzmir Ekonomi Üniversitesi Bilgisayar Programcılığı mezunuyum. Java, Spring Boot, Hibernate ve SQL ekosisteminde katmanlı mimariye uygun, dinamik filtreleme mekanizmalarına ve sağlam ilişkisel veri modellerine sahip RESTful backend servisleri geliştiriyorum.
 
