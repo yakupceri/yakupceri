@@ -35,7 +35,7 @@ Computer Programming graduate of İzmir University of Economics. I build RESTful
 - **Backend & ORM:** Spring Boot, Spring Data JPA, Hibernate, Specification API, Lombok
 - **Database design:** SQL Server, MySQL, normalization (3NF), transaction management (ACID)
 - **Web & real-time:** FastAPI, WebSocket, Chrome Extension (Manifest V3), Railway
-- **Tools & testing:** Git, GitHub, Postman, RESTful APIs
+- **Tools & testing:** Git, GitHub, GitHub Actions, JUnit, MockMvc, H2, Postman, RESTful APIs
 
 ---
 
@@ -61,11 +61,12 @@ Computer Programming graduate of İzmir University of Economics. I build RESTful
   - Subtitle language detection (stopwords + alphabet analysis), a 6-language interface, light/dark theme and an admin panel.
   - Deployed on Railway.
 
-- 💻 **[Computer Sales System: Backend API](https://github.com/yakupceri/computer-sales-system-spring-boot)**
-  - A RESTful backend service built with Spring Boot that manages computer sales.
-  - A relational model of 10 tables on MySQL (`OneToOne`, `OneToMany`, `ManyToOne`).
-  - Dynamic querying with Spring Data JPA Specification, and DTOs for data transfer.
-  - A modular architecture of Controller, Service, Repository and Domain layers.
+- 💻 **[Computer Sales System: Backend API](https://github.com/yakupceri/computer-sales-system-spring-boot)** (Java / Spring Boot)
+  - A RESTful backend service built with Spring Boot that manages computer sales, with a small storefront and an admin panel on top.
+  - Dynamic filtering with JPA Specification: one endpoint turns a JSON filter into SQL, with joins, AND/OR, paging and sorting across 10 resources.
+  - CRUD with request DTOs, validation and meaningful HTTP codes (201, 204, 400, 404, 409).
+  - Transactional order creation: stock check, stock deduction and totals in one transaction, rolled back on insufficient stock, with row locks (`PESSIMISTIC_WRITE`) against overselling.
+  - Tests with JUnit and MockMvc on H2, run on every push with GitHub Actions. A one-command H2 demo mode with sample data.
 
 - 🗄️ **[Computer Store: Database Design](https://github.com/yakupceri/computer-store-sqlserver-db)**
   - A relational database for sales processes on SQL Server, designed to Third Normal Form (3NF).

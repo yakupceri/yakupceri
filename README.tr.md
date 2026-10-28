@@ -32,7 +32,7 @@
 - **Backend & ORM:** Spring Boot, Spring Data JPA, Hibernate, Specification API, Lombok
 - **Veritabanı Mimarisi:** SQL Server, MySQL, Normalizasyon (3NF), Transaction Yönetimi (ACID)
 - **Web & Gerçek Zamanlı:** FastAPI, WebSocket, Chrome Extension (Manifest V3), Railway
-- **Araçlar & Test:** Git, GitHub, Postman, RESTful APIs
+- **Araçlar & Test:** Git, GitHub, GitHub Actions, JUnit, MockMvc, H2, Postman, RESTful APIs
 
 ---
 
@@ -58,11 +58,12 @@
   - Altyazı dili tespiti (stopword + alfabe analizi), 6 dilde arayüz, açık/koyu tema, yönetim paneli.
   - Railway üzerinde yayında.
 
-- 💻 **[Computer Sales System - Backend API](https://github.com/yakupceri/computer-sales-system-spring-boot)**
-  - Spring Boot ile bilgisayar satış süreçlerini yöneten RESTful API tabanlı backend servisi.
-  - MySQL üzerinde 10 tablodan oluşan ilişkisel veri modeli (`OneToOne`, `OneToMany`, `ManyToOne`).
-  - Spring Data JPA Specification ile dinamik veri sorgulama ve DTO optimizasyonu.
-  - Controller, Service, Repository ve Domain katmanlarından oluşan modüler mimari.
+- 💻 **[Computer Sales System - Backend API](https://github.com/yakupceri/computer-sales-system-spring-boot)** (Java / Spring Boot)
+  - Spring Boot ile bilgisayar satış süreçlerini yöneten RESTful backend servisi; üzerinde küçük bir mağaza ve yönetim paneli var.
+  - JPA Specification ile dinamik filtreleme: tek bir uç nokta JSON filtreyi SQL'e çevirir; 10 kaynakta join, AND/OR, sayfalama ve sıralama.
+  - Request DTO'ları, doğrulama ve anlamlı HTTP kodlarıyla (201, 204, 400, 404, 409) CRUD.
+  - Transactional sipariş oluşturma: stok kontrolü, stok düşme ve toplam tek transaction'da; stok yetmezse geri alınır, fazla satışa karşı satır kilidi (`PESSIMISTIC_WRITE`).
+  - H2 üzerinde JUnit ve MockMvc testleri, her push'ta GitHub Actions ile çalışır. Tek komutla örnek verili H2 demo modu.
 
 - 🗄️ **[Computer Store - Database Design](https://github.com/yakupceri/computer-store-sqlserver-db)**
   - Satış süreçlerine yönelik 3. Normal Form (3NF) prensipleriyle tasarlanmış ilişkisel veri tabanı modeli (SQL Server).
