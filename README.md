@@ -2,6 +2,8 @@
 
 [🇹🇷 Türkçe](./README.tr.md) · 🇬🇧 English
 
+🟢 **Open to junior backend roles** · İzmir or remote · Java / Spring Boot · Python / FastAPI
+
 Computer Programming graduate of İzmir University of Economics. I build RESTful backend services in the Java, Spring Boot, Hibernate and SQL ecosystem, with a layered architecture, dynamic filtering and solid relational data models. I also build full products with Python, FastAPI and PostgreSQL.
 
 <p align="left">
@@ -26,16 +28,37 @@ Computer Programming graduate of İzmir University of Economics. I build RESTful
 - Accounts, subtitle language detection, a 6-language interface and an admin panel.
 
 [🔗 GitHub](https://github.com/yakupceri/cinevocab-app) · [🧩 Chrome Web Store](https://chromewebstore.google.com/detail/glhogfbfbjifiihgffjpjgijkjplebkl) · [🌐 Live site](https://cinevocab.up.railway.app)
+<br clear="right"/>
+
+---
+
+### ⭐ Featured project: Computer Sales System
+
+<a href="https://github.com/yakupceri/computer-sales-system-spring-boot"><img src="https://raw.githubusercontent.com/yakupceri/computer-sales-system-spring-boot/main/docs/screenshots/magaza-urunler.png" align="right" width="260" alt="Computer Sales System"></a>
+
+**A Spring Boot REST API for a computer store, with a storefront and an admin panel on top.**
+
+- **Dynamic filtering:** one endpoint turns a JSON filter into SQL with JPA Specification, across 10 resources.
+- **Safe orders:** stock check, deduction and totals in one transaction, with row locks against overselling.
+- **Tested:** JUnit and MockMvc tests run on every push with GitHub Actions. One-command H2 demo mode.
+
+[🔗 GitHub](https://github.com/yakupceri/computer-sales-system-spring-boot) · [▶️ Run the demo](https://github.com/yakupceri/computer-sales-system-spring-boot#-hızlı-başlangıç)
+<br clear="right"/>
 
 ---
 
 ### 🛠️ Skills & technologies
 
-- **Languages:** Java, Python, JavaScript, SQL (T-SQL, MySQL, PostgreSQL)
-- **Backend & ORM:** Spring Boot, Spring Data JPA, Hibernate, Specification API, Lombok
-- **Database design:** SQL Server, MySQL, normalization (3NF), transaction management (ACID)
-- **Web & real-time:** FastAPI, WebSocket, Chrome Extension (Manifest V3), Railway
-- **Tools & testing:** Git, GitHub, GitHub Actions, JUnit, MockMvc, H2, Postman, RESTful APIs
+**Backend**  
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" /> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" /> <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white" alt="Hibernate" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" /> <img src="https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSocket" />
+
+**Data**  
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" /> <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" /> <img src="https://img.shields.io/badge/H2-1021FF?style=flat-square" alt="H2" />
+
+**Tools & testing**  
+<img src="https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white" alt="JUnit 5" /> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" /> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" /> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman" /> <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" alt="Railway" /> <img src="https://img.shields.io/badge/Chrome_MV3-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Chrome MV3" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+
+Also: JPA Specification, DTOs, transactions (ACID), normalization (3NF), MockMvc, RESTful API design.
 
 ---
 
